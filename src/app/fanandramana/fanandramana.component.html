@@ -1,0 +1,8 @@
+<p>fanandramana works!</p>
+<h3>{{ anarana }}</h3>
+<h4>{{ getScreenWidth }}</h4>
+<div>
+  <h2 *ngIf="getScreenWidth > 768">Large</h2>
+  <h2 *ngIf="getScreenWidth < 769 && getScreenWidth > 368">Medium</h2>
+  <h2 *ngIf="getScreenWidth < 369">Mobile</h2>
+</div>
